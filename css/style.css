@@ -172,7 +172,7 @@ a:hover, a:focus, a:active, a:visited {
 
 .footer-items {
     font-size: 18px;
-    color: dimgray;
+    color: darkgray;
     padding-right: 20px;
     padding .2em 1em;
    
@@ -188,17 +188,36 @@ ul.footer-menu {
     text-align: center;
 }
 
+.bottom-footer {
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
 /*End footer*/
 
 /*contact form*/
-.contact {
-    background-color: #3a3a3a;
-    color: #fff;
-    padding: 1em;
+
+.form-page-colour {
+    
+    background-color: #69929C;
+    
 }
-.contact h3 {
+
+.form-title {
+    
+    color: #fff;
+    padding: 10px;
+}
+
+.contact {
+   color: #fff;
+}
+
+.contact h1 {
     margin-bottom: 30px;
+    padding: 40px;
 }
 
 .form-control {
@@ -213,6 +232,11 @@ ul.footer-menu {
 .form-control-feedback {
     top: 15px;
     right: 15px;
+}
+
+.label-format {
+    font-size: 20px;
+    padding: 1em;
 }
 /*end contact form*/
 
