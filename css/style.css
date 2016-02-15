@@ -197,7 +197,7 @@ ul.footer-menu {
 
 /*End footer*/
 
-/*contact form*/
+/*registeration form*/
 
 .form-page-colour {
     
@@ -211,11 +211,11 @@ ul.footer-menu {
     padding: 10px;
 }
 
-.contact {
+.registeration {
    color: #fff;
 }
 
-.contact h1 {
+.registeration h1 {
     margin-bottom: 30px;
     padding: 40px;
 }
@@ -240,7 +240,7 @@ ul.footer-menu {
 }
 /*end contact form*/
 
-.animated { 
+/*.animated { 
     -webkit-animation-duration: 5s; 
     animation-duration: 5s; 
     -webkit-animation-fill-mode: both; 
@@ -266,5 +266,5 @@ ul.footer-menu {
 .bounce { 
     -webkit-animation-name: bounce; 
     animation-name: bounce; 
-}
+}*/
 

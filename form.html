@@ -14,7 +14,8 @@
 <link href="css/font-awesome.css" rel="stylesheet">
 <link href="css/font-awesome.min.css" rel="stylesheet">
 </head>
-
+    
+    
     <body id="page-top" data-spy="scroll" data-target=".navbar" class="form-page-colour">
         
     <!--nav bar-->    
@@ -50,14 +51,18 @@
             
         </div>
     </nav>
+    <!-- end of nav bar-->
         
-        <div class="row contact">
-        <div class="col-md-12 contact-form">
-        <h1 class="content-ct"><span class="ti-email"></span>Contact  Form</h1>
-        <form role="form">
+        <!--registeration form-->
+        <div class="row registeration">
+        <div class="col-md-12 registeration-form">
+        <h1 class="content-ct"><span class="ti-email"></span>Registeration  Form</h1>
+        <!-- start form-->
+            
+            <form role="form">
             
             <div class="label-format">
-            
+            <!--radio button-->
             <label class="radio-inline">
                 <input type="radio" name="optionradio" id="option1">
                 Male
@@ -73,10 +78,11 @@
                 
             </label>
             
-          
+          <!-- end radio button-->
             
         </div>
             
+        <!-- input text-->    
         <div class="form-group label-format">
         <label for="inputName" class="control-label col-md-4">Name: <sup>*</sup></label> 
             
@@ -86,7 +92,9 @@
             
         </div>  
             
-        
+        <!--end input text-->
+                
+        <!--email-->
             <div class="form-group label-format">
             
             <label for="email" class="contril-label col-md-4">Email: <sup>*</sup></label>
@@ -94,8 +102,11 @@
                 <input type="email" id="mail" class="form-control" placeholder="email">
                 </div>
             </div>
+                
+            <!--end email-->
             
-            <div class="checkbox">
+            <!--checkbox-->
+            <div class="checkbox label-format">
             <div class="label-format">
             <label for="checkbox" class="control-label col-md-12"><input type="checkbox" id="check1" value="">Register for Event 1</label>
             <label for="checkbox" class="control-label col-md-12"><input type="checkbox" id="check2" value="">Register for Event 2</label>
@@ -104,6 +115,15 @@
             
             </div>
             </div>
+            <!-- end checkbox-->
+                
+            <!-- text area-->
+                <div class="form-group label-format">
+                <label for="message" class="control-label col-md-4">Comments </label>
+                    <div class="col-md-8">
+                    <textarea id="comment" class="form-control" rows="5" placeholder="Any extra comments?"></textarea> 
+                    </div>
+                </div>
         </form>  
         
         
@@ -113,29 +133,32 @@
         
     
     <!-- bottom links-->
-    <div class="bottom-footer">
-    <div class="row link-to-join">
+    
+   <!--<div class="row link-to-join">
     <div class="col-md-12">
     <ul class="footer-list-items">
     <li><a href="#" class="footer-items"> Join the team</a></li>
     <li><a href="#" class="footer-items"> Privacy Policies</a></li>
     <li><a href="#" class="footer-items">Terms and Conditions</a> </li>
     </ul>    
-    </div> 
-    </div>    
+    </div> -->
+        
       
         
     <!--Footer-->
-        <footer>
         <div class="row link-to-join">
+        <footer>
+        
         <div class="text-center col-md-12 footer-items">
         <p>&copy; Sadhika Billa | All rights reserved</p>
             </div>
+            
+        </footer>
             </div>
-        </footer>    
-        </div>
+        
     <script src="js/jquery.js"></script>    
     
+        
   </body>
 
 </html>
