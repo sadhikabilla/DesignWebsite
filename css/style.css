@@ -188,12 +188,6 @@ ul.footer-menu {
     text-align: center;
 }
 
-.bottom-footer {
-    
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
 
 /*End footer*/
 
@@ -235,30 +229,34 @@ ul.footer-menu {
 }
 
 .label-format {
-    font-size: 20px;
+    font-size: 15px;
     padding: 1em;
+}
+
+.spacing-format label {
+    padding-top: 20px; 
 }
 /*end contact form*/
 
-/*.animated { 
+/*bounce animation*/
+.animated { 
     -webkit-animation-duration: 5s; 
     animation-duration: 5s; 
     -webkit-animation-fill-mode: both; 
     animation-fill-mode: both; 
-    -webkit-animation-timing-function: linear; 
-    animation-timing-function: linear; 
     animation-iteration-count:infinite; 
-    -webkit-animation-iteration-count:infinite; 
+    -webkit-animation-iteration-count:infinite;
 } 
 
-@-webkit-keyframes bounce { 
-    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
-    40% {-webkit-transform: translateY(-30px);} 
-    60% {-webkit-transform: translateY(-15px);} 
+
+@-webkit-keyframes bounce {
+    
+    40% {-webkit-transform: translateY(-30px);}
+    60% {-webkit-transform: translateY(-15px);}
 } 
 
 @keyframes bounce { 
-    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    
     40% {transform: translateY(-30px);} 
     60% {transform: translateY(-15px);} 
 } 
@@ -266,5 +264,5 @@ ul.footer-menu {
 .bounce { 
     -webkit-animation-name: bounce; 
     animation-name: bounce; 
-}*/
-
+}
+/*end bounce animation*/

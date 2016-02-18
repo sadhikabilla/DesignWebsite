@@ -42,8 +42,8 @@
             
                 <li><a href="#home">Home</a></li>
                 <li><a href="#schedule">Schedule</a></li>
-                <li><a href="#Team">Team</a></li>
-                <li><a href="#tickets">Course Tickets</a></li>
+                <li><a href="#team">Team</a></li>
+                
                 
             </ul>
                 
@@ -57,7 +57,6 @@
     <!--Header-->
      <div class="row hero-header" id="home">
         <div class="col-md-7">
-        <img src="img/TechChangeLogo.png" class="logo">
         <h1>Get to know and attend Tech conferences around Singapore</h1>
         <h3>We connnect you with people from all over the globe!</h3>
         <h4> Next conference happening on 5<sup>th</sup> May to 10<sup>th</sup> May </h4>
@@ -120,7 +119,7 @@
                     <h4 class="media-heading">20<sup>th</sup> Feburary</h4>
                     <h5>DESIGN ESSENTIALS BY SIMON WELLS</h5>
                     <P>Simon is a designer and has worked for a number of Design startups in Silicon Valley. He is currently workingin Google. Join his talk to learn design principles.</P>
-                    <a href="#" class="btn btn-lg btn-danger">Register</a>
+                    <button type="buton" class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal">Register</button>
                     </div>
                         
                     </div>
@@ -139,7 +138,7 @@
                     <h4 class="media-heading">10<sup>th</sup> March</h4>    
                     <h5>BASICS OF AI</h5>
                     <p>May is a developer currently working at Max.Inc. She has given a number of Ted Talks on artificial intelligence. Join her session to understand more about AI.  </p>
-                    <a href="#" class="btn btn-lg btn-danger">Register</a>
+                    <button type="button" class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal">Register</button>
                     </div>    
                         
                     </div>
@@ -167,7 +166,7 @@
                     <h4 class="media-heading">21<sup>st</sup> March</h4>
                     <h5>LEARNING ABOUT ENTREPRENEURSHIP</h5>
                     <P>Matt is an Entrepreneur and has worked for a number of Design startups in Silicon Valley. He now has his own company MattDesigns. Join his talk to learn more about Entrepreneurship.</P>
-                    <a href="#" class="btn btn-lg btn-danger">Register</a>
+                    <button type="button" class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal">Register</button>
                     </div>
                         
                     </div>
@@ -186,7 +185,7 @@
                     <h4 class="media-heading">1<sup>st</sup> April</h4>    
                     <h5>BASICS OF AI</h5>
                     <p>Maya is a developer currently working at Max.Inc. She has given a number of Ted Talks on artificial intelligence. Join her session to understand more about AI.  </p>
-                    <a href="#" class="btn btn-lg btn-danger">Register</a>
+                    <button type="button" class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal">Register</button>
                     </div>    
                         
                     </div>
@@ -214,7 +213,7 @@
                     <h4 class="media-heading">21<sup>st</sup> March</h4>
                     <h5>LEARNING ABOUT ENTREPRENEURSHIP</h5>
                     <P>Matt is an Entrepreneur and has worked for a number of Design startups in Silicon Valley. He now has his own company MattDesigns. Join his talk to learn more about Entrepreneurship.</P>
-                    <a href="#" class="btn btn-lg btn-danger">Register</a>
+                    <button type="button" class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal">Register</button>
                     </div>
                         
                     </div>
@@ -233,7 +232,7 @@
                     <h4 class="media-heading">1<sup>st</sup> April</h4>    
                     <h5>BASICS OF AI</h5>
                     <p>Maya is a developer currently working at Max.Inc. She has given a number of Ted Talks on artificial intelligence. Join her session to understand more about AI.  </p>
-                    <a href="#" class="btn btn-lg btn-danger">Register</a>
+                    <button type="button" class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal">Register</button>
                     </div>    
                         
                     </div>
@@ -261,7 +260,7 @@
                     <h4 class="media-heading">21<sup>st</sup> March</h4>
                     <h5>LEARNING ABOUT ENTREPRENEURSHIP</h5>
                     <P>Matt is an Entrepreneur and has worked for a number of Design startups in Silicon Valley. He now has his own company MattDesigns. Join his talk to learn more about Entrepreneurship.</P>
-                    <a href="#" class="btn btn-lg btn-danger">Register</a>
+                     <button type="button" class="btn btn-lg btn-danger" data-toggle="modal" data-target="#myModal">Register</button>
                     </div>
                         
                     </div>
@@ -280,7 +279,7 @@
                     <h4 class="media-heading">1<sup>st</sup> April</h4>    
                     <h5>BASICS OF AI</h5>
                     <p>Maya is a developer currently working at Max.Inc. She has given a number of Ted Talks on artificial intelligence. Join her session to understand more about AI.  </p>
-                    <a href="#" class="btn btn-lg btn-danger">Register</a>
+                        <button type="button" class="btn btn-lg btn-danger" data-target="#myModal" data-toggle="modal">Register</button>
                     </div>    
                         
                     </div>
@@ -296,6 +295,58 @@
     </div>
         
     <!--end schedule-->
+        
+ 
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="aria-labelledby" aria-hidden="true" >
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title" id="myModalLabel"> <span class="ti-bookmark"></span>Register </h4>
+      </div>
+      <div class="modal-body">
+          
+        <form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="email">Email:<sup>*</sup>:</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Password:<sup>*</sup></label>
+    <div class="col-sm-10"> 
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+    </div>
+  </div>
+  <div class="form-group"> 
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label><input type="checkbox"> Remember me</label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group"> 
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+  </div>
+</form>
+            
+          
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+         <button type="button" class="btn btn-primary"> Submit </button>
+      </div>
+    </div>
+  </div>
+</div>
+        
+    <!--end Modal-->    
         
     <!-- team members -->    
         
@@ -351,6 +402,11 @@
             </div>
         </footer>
         
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  
+        
+   
     </body>
 
 </html>
